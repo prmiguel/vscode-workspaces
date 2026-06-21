@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "path": "/workspace/vscode-workspaces",
+      "name": "⌚ workspace",
+    },
+    {
+      "path": "/workspace/vscode-notes",
+      "name": "notes",
+    }
+  ],
+  "settings": {
+    "terminal.integrated.commandsToSkipShell": [
+        "kilo-code.new.agentManagerOpen",
+        "kilo-code.new.agentManager.showTerminal"
+    ],
+    "kilo-code.new.agentWorkStyle": "skipped",
+    "kilo-code.new.showTaskTimeline": true
+  },
+}
