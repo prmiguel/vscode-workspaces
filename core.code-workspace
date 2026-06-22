@@ -19,10 +19,6 @@
     {
       "path": "/workspace/ai",
       "name": "🤖 ai"
-    },
-    {
-      "path": "/workspace/Ghpr.NUnit",
-      "name": "🔬 Ghpr.NUnit"
     }
   ],
   "tasks": {
