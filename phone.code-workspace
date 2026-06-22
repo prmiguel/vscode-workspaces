@@ -1,8 +1,16 @@
 {
   "folders": [
     {
-      "path": "/workspace/vscode-workspaces/default.code-workspace",
-      "name": "⌚ workspace",
+      "path": "/workspace/vscode-workspaces",
+      "name": "⌚ workspace"
+    },
+    {
+      "path": "/workspace/vscode-notes",
+      "name": "📝 notes"
+    },
+    {
+      "path": "/workspace/vscode-extpack",
+      "name": "🧩 vscode-env"
     }
   ],
   "settings": {

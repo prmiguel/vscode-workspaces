@@ -2,13 +2,46 @@
   "folders": [
     {
       "path": "/workspace/vscode-workspaces",
-      "name": "⌚ workspace",
+      "name": "⌚ workspace"
     },
     {
       "path": "/workspace/vscode-notes",
-      "name": "notes",
+      "name": "📝 notes"
+    },
+    {
+      "path": "/workspace/vscode-extpack",
+      "name": "🧩 vscode-env"
     }
   ],
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "⚙️ Set Git Global Config",
+        "type": "shell",
+        "command": "git config --global user.name \"${input:username}\" && git config --global user.email \"${input:email}\"",
+        "problemMatcher": [],
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        }
+      }
+    ],
+    "inputs": [
+      {
+        "id": "username",
+        "type": "promptString",
+        "description": "Git global user.name"
+      },
+      {
+        "id": "email",
+        "type": "promptString",
+        "description": "Git global user.email"
+      }
+    ]
+  },
   "settings": {
     "terminal.integrated.commandsToSkipShell": [
         "kilo-code.new.agentManagerOpen",
