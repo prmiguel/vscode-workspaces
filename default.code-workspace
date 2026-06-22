@@ -11,6 +11,10 @@
     {
       "path": "/workspace/vscode-extpack",
       "name": "🧩 vscode-env"
+    },
+    {
+      "path": "/workspace/repo-registry",
+      "name": "📝 registry"
     }
   ],
   "tasks": {
