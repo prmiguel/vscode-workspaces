@@ -2,19 +2,19 @@
   "folders": [
     {
       "path": "/workspace/vscode-workspaces",
-      "name": "⌚ workspace"
+      "name": "🗂️ workspaces"
     },
     {
       "path": "/workspace/vscode-notes",
-      "name": "📝 notes"
+      "name": "📓 notes"
     },
     {
       "path": "/workspace/vscode-extpack",
-      "name": "🧩 vscode-env"
+      "name": "📦 extpack"
     },
     {
       "path": "/workspace/repo-registry",
-      "name": "📝 registry"
+      "name": "📋 registry"
     },
 
     {
@@ -50,5 +50,5 @@
     "terminal.integrated.fontSize": 15,
     "terminal.integrated.lineHeight": 1.35,
     "kilo-code.new.showTaskTimeline": true
-  },
+  }
 }
