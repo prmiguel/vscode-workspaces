@@ -15,6 +15,14 @@
     {
       "path": "/workspace/repo-registry",
       "name": "📝 registry"
+    },
+    {
+      "path": "/workspace/ai",
+      "name": "🤖 ai"
+    },
+    {
+      "path": "/workspace/Ghpr.NUnit",
+      "name": "🔬 Ghpr.NUnit"
     }
   ],
   "tasks": {
